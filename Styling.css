@@ -1,0 +1,173 @@
+
+.card {
+    border-style: solid;
+    border-width: 1px;
+    background-color: #ffffff;
+}
+
+.paragraph {
+    color: grey;
+}
+
+.image {
+    width: 10vw;
+}
+
+.image3 {
+    width: 15vw;
+    padding: 10px;
+}
+
+.image-card {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.paragraph1 {
+    color: #222222;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+.image1 {
+    background-size: cover;
+    width: 40vw;
+}
+
+.sale-image {
+    background-size: cover;
+    width: 28vw;
+}
+
+.ratings {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.overall-name-rating {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: grey;
+}
+
+.view-all-link {
+    text-decoration: underline;
+}
+
+.New-and-noteworthy-image {
+    width: 20vw;
+    border-radius: 16px;
+}
+
+.New-and-noteworthy-description {
+    font-size: 24px;
+}
+
+.New-and-noteworthy-sm-image {
+    width: 19vw;
+    border-radius: 16px;
+}
+
+.New-and-noteworthy-sm-description {
+    font-size: 14px;
+}
+
+.New-and-noteworthy-sm-heading {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.New-and-noteworthy-sm-image1 {
+    width: 25vw;
+    border-radius: 16px;
+}
+
+.New-and-noteworthy-sm-description1 {
+    font-size: 16px;
+}
+
+.image-sm-100 {
+    width: 50vw;
+    background-size: cover;
+}
+
+.mbs-para {
+    width: 25vw;
+}
+.card-middle {
+    width: 25vw;
+    text-align: center;
+}
+
+.button {
+    color: #7c54e5;
+    background-color: #ffffff;
+    border-radius: 16px;
+    width: 10vw;
+}
+.grey{
+    color: grey;
+}
+.imagecpc {
+    width: 20vw;
+    border-radius: 12px;
+}
+.cleaning-pest-control-heading{
+    font-size: 34px;
+}
+.imagecpc {
+    width: 20vw;
+    border-radius: 12px;
+}
+
+.cleaning-pest-control-heading {
+    font-size: 34px;
+}
+.button1 {
+    color: #7c54e5;
+    background-color: #ffffff;
+    border-radius: 16px;
+    width: 15vw;
+    border-width: 0px;
+}
+.background-contact {
+    background-color: #f5f5f5;
+    background-size: cover;
+}
+
+.image-uc-contact {
+    width: 30vw;
+}
+
+.contact-heading {
+    color: #212835;
+    font-size: 20px;
+}
+
+.contact-paragraph {
+    color: #a29f99;
+}
+
+.contact-us-logo-size {
+    font-size: 25px;
+    color: #0c0e13;
+}
+
+.contact-us-logo-bg {
+    background-color: #ffffff;
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    padding-top: 18px;
+    padding-bottom: 16px;
+    padding-left: 18px;
+    padding-right: 22px;
+}
+
+.hr-line {
+    background-color: #a29f99;
+}

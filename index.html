@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Styling.css">
+    <script src="https://kit.fontawesome.com/5e8b809b50.js" crossorigin="anonymous"></script>
+    </head>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand d-none d-md-block" href="#">
+            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_category/w_108,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1687285683825-e6cf23.jpeg" class="UC-image" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon d-none d-md-block"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+            <div class="navbar-nav mr-auto ">
+                <a class="nav-link active mr-3" href="#">Beauty <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-dark mr-3" href="#">Homes</a>
+                <a class="nav-link text-dark mr-3" href="#">Native</a>
+                <nav class="navbar navbar-light bg-light">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search for A.C 'Services' " aria-label="search">
+                        <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </nav>
+            </div>
+            <div class="ml-auto">
+                <div class="d-flex flex-row">
+                    <div class="mr-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                        </svg>
+                    </div>
+                    <div class="mr-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container search-section">
+        <div class="row">
+            <div class="col-12 d-md-none">
+                <nav class="navbar navbar-light bg-light">
+                <form class="form-inline w-75">
+                <input class="form-control mr-sm-2 text-center" type="search" 
+                placeholder="Search for 'AC Services' " aria-label="Search">
+                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="image-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7">
+                    <div class="card p-3 mt-3">
+                        <p class="paragraph">What are you looking for?</p>
+                        <div class="d-flex flex-row justify-content-between text-center">
+                            <div>
+                                <div class="image-card">
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_category/w_56,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1678864013225-bfc1de.jpeg" class="image" />
+                                </div>
+                                <p class="paragraph1">Women's Salon & Spa</p>
+                            </div>
+                            <div>
+                                <div class="image-card">
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_category/w_56,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1677505426782-4e2d0a.jpeg" class="image" />
+                                </div>
+                                <p class="paragraph1">Men's Salon & Massage</p>
+                            </div>
+                            <div>
+                                <div class="image-card">
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_category/w_56,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1679292077307-6143d7.jpeg" class="image" />
+                                </div>
+                                <p class="paragraph1">AC & Appliance Repair</p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-between text-center">
+                            <div>
+                                <div class="image-card">
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_category/w_56,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1699869110346-61ab83.jpeg" class="image" />
+                                </div>
+                                <p class="paragraph1">Cleaning & Pest Control</p>
+                            </div>
+                            <div>
+                                <div class="image-card">
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_category/w_56,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1658402794135-faf080.png" class="image" />
+                                </div>
+                                <p class="paragraph1">Electrician,Plumber & Carpenter</p>
+                            </div>
+                            <div>
+                                <div class="image-card">
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_category/w_56,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1705340729734-0a23f7.jpeg" class="image" />
+                                </div>
+                                <p class="paragraph1">Native Water Purifier</p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <div class="image-card mr-3 d-flex flex-row">
+                                <p class="paragraph1 p-3 ">Painting & Decor</p>
+                                <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_category/w_56,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1674120935535-f8d5c8.jpeg" class="image3" />
+                            </div>
+                            <div class="image-card ml-3 d-flex flex-row justify-content-end">
+                                <p class="paragraph1 p-3  ">Wall Panels</p>
+                                <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_category/w_56,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1724138391296-c1780b.jpeg" class="image3" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 d-none d-md-block">
+                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1696852847761-574450.jpeg" class="image1 w-100" />
+                </div>
+                <div class="col-12 col-md-5 d-none d-md-block">
+                    <div class="d-flex flex-row">
+                        <div>
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_category/w_48,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1693570188661-dba2e7.jpeg" />
+                        </div>
+                        <div class="mt-3 mr-4">
+                            <h1 class="ratings">4.8</h1>
+                            <p class="overall-name-rating">Service Rating</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <div class="ml-3">
+                                <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_48,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1693491890812-e86755.jpeg" />
+                            </div>
+                            <div class="mt-3 ml-4">
+                                <h1 class="ratings">5M+</h1>
+                                <p class="overall-name-rating">Customers Globally</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sale-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-none d-md-block">
+                    <div class="d-flex mt-3 w-100">
+                        <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_394,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1723186351559-c508c6.jpeg" class="sale-image " />
+                        <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_394,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1720002040094-5f4ab1.jpeg" class="sale-image ml-4" />
+                        <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_394,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1720173604045-456ebe.jpeg" class="sale-image ml-4" />
+                    </div>
+                    <div class="d-flex flex-row justify-content-end">
+                        <a href="" class="view-all-link">View all
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="New-and-noteworthy-section w-100 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-none d-md-block">
+                    <h1>New and noteworthy</h1>
+                    <div class="d-flex">
+                        <div>
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1687428458328-9e147d.jpeg" class="New-and-noteworthy-image mt-4" />
+                            <h1 class="New-and-noteworthy-description mt-4">Native Water Purifier</h1>
+                        </div>
+                        <div class="ml-3 mr-3">
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1651040419628-022a2b.jpeg" class="New-and-noteworthy-image mt-4" />
+                            <h1 class="New-and-noteworthy-description mt-4">Full Home Painting</h1>
+                        </div>
+                        <div class="ml-3 mr-3">
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1719991333232-d32f07.jpeg" class="New-and-noteworthy-image mt-4" />
+                            <h1 class="New-and-noteworthy-description mt-4">Native Smart Locks</h1>
+                        </div>
+                        <div class="ml-3 mr-3">
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1651040407144-95eb6e.jpeg" class="New-and-noteworthy-image mt-4" />
+                            <h1 class="New-and-noteworthy-description mt-4">Ayurvedic Spa</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Trending-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-3 d-md-none">
+                    <p class="paragraph">Trending now</p>
+                    <hr />
+                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/dpr_3,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1722499993008-65efb6.jpeg " class="image1 w-100" />
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="sale-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-block d-md-none">
+                    <div class="d-flex mt-3 w-100">
+                        <div>
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_394,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1723186351559-c508c6.jpeg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_394,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1720002040094-5f4ab1.jpeg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_394,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1720173604045-456ebe.jpeg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_394,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1715685371430-6b3871.jpeg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_394,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1701759875987-8b654d.jpeg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_394,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1711428209166-2d42c0.jpeg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_394,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1723117999918-053994.jpeg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_394,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1678450687690-81f922.jpeg" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="New-and-noteworthy-section w-100 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-block d-md-none">
+                    <h1 class="New-and-noteworthy-sm-heading">New and noteworthy</h1>
+                    <div class="d-flex">
+                        <div>
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1687428458328-9e147d.jpeg" class="New-and-noteworthy-sm-image mt-4" />
+                            <h1 class="New-and-noteworthy-sm-description mt-4">Native Water Purifier</h1>
+                        </div>
+                        <div class="ml-3 mr-3">
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1651040419628-022a2b.jpeg" class="New-and-noteworthy-sm-image mt-4" />
+                            <h1 class="New-and-noteworthy-sm-description mt-4">Full Home Painting</h1>
+                        </div>
+                        <div class="ml-3 mr-3">
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1719991333232-d32f07.jpeg" class="New-and-noteworthy-sm-image mt-4" />
+                            <h1 class="New-and-noteworthy-sm-description mt-4">Native Smart Locks</h1>
+                        </div>
+                        <div class="ml-3 mr-3">
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1651040407144-95eb6e.jpeg" class="New-and-noteworthy-sm-image mt-4" />
+                            <h1 class="New-and-noteworthy-sm-description mt-4">Ayurvedic Spa</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Booked-services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-md-none mt-5 ">
+                    <h1 class="New-and-noteworthy-sm-heading">Most booked Services</h1>
+                    <div class="d-flex flex-row mt-4">
+                        <div>
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1723532192164-a6431f.jpeg" class="New-and-noteworthy-sm-image1 " />
+                            <div class="pt-3">
+                                <h1 class="New-and-noteworthy-sm-description1">Haircut For men</h1>
+                                <p class="paragraph"> ★ 4.89 (512K)</p>
+                                <p> ₹259</p>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1659102409372-8ca38a.png" class="New-and-noteworthy-sm-image1 " />
+                            <div class="pt-3">
+                                <h1 class="New-and-noteworthy-sm-description1">Intense cleaning-2 bathroom pack</h1>
+                                <p class="paragraph"> ★ 4.78 (1.6M)</p>
+                                <p> ₹1,039</p>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1723657610150-29c265.jpeg" class="New-and-noteworthy-sm-image1 " />
+                            <div class="pt-3">
+                                <h1 class="New-and-noteworthy-sm-description1">Sofa cleaning</h1>
+                                <p class="paragraph"> ★ 4.86(458K)</p>
+                                <p> ₹569</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sm-image-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-md-none">
+                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_393,dpr_3,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1719991325971-74ff36.jpeg" class="image-sm-100 w-100" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Booked-services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-none d-md-block mt-5 ">
+                    <h1 class="New-and-noteworthy-heading">Most booked Services</h1>
+                    <div class="d-flex flex-row mt-4">
+                        <div>
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1723532192164-a6431f.jpeg" class="New-and-noteworthy-image" />
+                            <div class="pt-3">
+                                <h1 class="New-and-noteworthy-description">Haircut For men</h1>
+                                <p class="paragraph"> ★ 4.89 (512K)</p>
+                                <p> ₹259</p>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1659102409372-8ca38a.png" class="New-and-noteworthy-image" />
+                            <div class="pt-3">
+                                <h1 class="New-and-noteworthy-description mbs-para">Intense cleaning-2 bathroom pack</h1>
+                                <p class="paragraph "> ★ 4.78 (1.6M)</p>
+                                <p> ₹1,039</p>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1723657610150-29c265.jpeg" class="New-and-noteworthy-image" />
+                            <div class="pt-3">
+                                <h1 class="New-and-noteworthy-description">Sofa cleaning</h1>
+                                <p class="paragraph"> ★ 4.86(458K)</p>
+                                <p> ₹569</p>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1720611697275-abc97c.jpeg" class="New-and-noteworthy-image" />
+                            <div class="pt-3">
+                                <h1 class="New-and-noteworthy-description">Classic bathroom cleaning</h1>
+                                <p class="paragraph"> ★ 4.83(1.2M)</p>
+                                <p> ₹449</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-none d-md-block">
+                <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_1232,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1719991417932-c5dca4.jpeg"
+                class="w-100"/>
+            </div>
+            <div class="container section-salon-for-women">
+                <div class="row">
+                    <div class="col-12 mt-5 d-none d-md-block">
+                        <div class="d-flex flex-row justify-content-between">
+                            <h1>Salon for woman</h1>
+                            <button class="button"> See all</button>
+                        </div>
+                        <div class="d-flex">
+                            <div class="card-middle mt-3">
+                                <p>Manicure</p>
+                                <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1717398005609-e19abc.jpeg" class="mt-3 w-100" />
+                            </div>
+                            <div class="card-middle ml-3 mt-3">
+                                <p>Waxing</p>
+                                <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1717397992635-09b511.jpeg" class="mt-3 w-100" />
+                            </div>
+                            <div class="card-middle ml-3 mt-3">
+                                <p>Clean up</p>
+                                <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1717397984511-247afe.jpeg" class="mt-3 w-100" />
+                            </div>
+                            <div class="card-middle ml-3 mt-3">
+                                <p>Hair care</p>
+                                <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1717398018197-c68fcc.jpeg" class="mt-3 w-100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-spa-for-woman d-none d-md-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mt-5">
+                            <h1> Spa for woman</h1>
+                            <p class="grey">Refresh. Rewind. Rejuvenate.</p>
+                            <div class="d-flex flex-row">
+                            <div class="card-middle mt-3">
+                                <p>Stress Relief</p>
+                                <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_228,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1700143543316-c5eb5c.jpeg" class="mt-3 w-100" />
+                            </div>
+                            <div class="card-middle mt-3 ml-5">
+                                <p>Pain Relief</p>
+                                <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_228,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1700143539186-26f4e5.jpeg" class="mt-3 w-100" />
+                            </div>
+                            <div class="card-middle mt-3 ml-5">
+                                <p>Natural skin care</p>
+                                <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_228,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1700143553928-f5f936.jpeg" class="mt-3 w-100" />
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image-section d-none d-md-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mt-5">
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_1232,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1698216827166-bc6957.jpeg" 
+                            class="w-100"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Cleaning-pest-control d-none d-md-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mt-5 ">
+                            <div class="d-flex flex-row justify-content-between">
+                                    <h1 class="cleaning-pest-control-heading"> Cleaning & Pest control</h1>
+                                    <button class="button"> See all</button>
+                                </div>
+                            <div class="d-flex">
+                                <div class="card-middle mt-5">
+                                    <p>Full Home cleaning</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700129474836-c5b146.jpeg" class="imagecpc" />
+                                </div>
+                                <div class="card-middle mt-5 ml-3">
+                                    <p>Sofa & carpet cleaning</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1700204929955-75dd47.jpeg" class="imagecpc" />
+                                </div>
+                                <div class="card-middle mt-5 ml-3">
+                                    <p>Cockroach,Ant & <br/> General pest control</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1700141859007-d310cd.jpeg" class="imagecpc" />
+                                </div>
+                                <div class="card-middle mt-5 ml-3">
+                                    <p>Bathroom cleaning</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1700217115195-4b42c0.jpeg" class="imagecpc" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image-section d-none d-md-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                           <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_1232,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1722581000618-b972cf.jpeg" class="w-100"/> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="A.C-appliance-repair d-none d-md-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mt-5 ">
+                            <div class="d-flex flex-row justify-content-between">
+                                <h1 class="cleaning-pest-control-heading">A.C & appliance repair </h1>
+                                <button class="button"> See all</button>
+                            </div>
+                            <div class="d-flex">
+                                <div class="card-middle mt-5">
+                                    <p>A.C Repair & Service</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700141800784-5ca077.jpeg" class="imagecpc" />
+                                </div>
+                                <div class="card-middle mt-5 ml-3">
+                                    <p>Washing machine repair</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700142017541-7905b3.jpeg" class="imagecpc" />
+                                </div>
+                                <div class="card-middle mt-5 ml-3">
+                                    <p>Water Purifier Repair & Service</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700141956384-2e00b1.jpeg" class="imagecpc" />
+                                </div>
+                                <div class="card-middle mt-5 ml-3">
+                                    <p>Geyser Repair & Service</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700198936506-15c0e3.jpeg" class="imagecpc" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Quick-home-repair-repair d-none d-md-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mt-5 ">
+                            <div class="d-flex flex-row justify-content-between">
+                                <h1 class="cleaning-pest-control-heading">Quick Home Repairs </h1>
+                                <button class="button"> See all</button>
+                            </div>
+                            <div class="d-flex flex-row mt-4">
+                                <div>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1653983252697-ae30db.png" class="imagecpc" />
+                                    <div class="pt-3">
+                                        <h1 class="New-and-noteworthy-sm-description1">Drill & Hang (wall decor)</h1>
+                                        <p class="paragraph"> ★ 4.87 (124k)</p>
+                                        <p> ₹129</p>
+                                    </div>
+                                </div>
+                                <div class="ml-4">
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1653646139213-3c072a.png" class="imagecpc" />
+                                    <div class="pt-3">
+                                        <h1 class="New-and-noteworthy-sm-description1">Fan repair (ceiling/<br />exhaust/wall)</h1>
+                                        <p class="paragraph"> ★ 4.82(116K</p>
+                                        <p> ₹199</p>
+                                    </div>
+                                </div>
+                                <div class="ml-4">
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1701149688871-2980d1.jpeg" class="imagecpc" />
+                                    <div class="pt-3">
+                                        <h1 class="New-and-noteworthy-sm-description1">Switch/Socket <br /> Replacement</h1>
+                                        <p class="paragraph"> ★ 4.86(44K)</p>
+                                        <p> ₹109</p>
+                                    </div>
+                                </div>
+                                <div class="ml-4">
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1653918711360-0acbd8.png" class="imagecpc" />
+                                    <div class="pt-3">
+                                        <h1 class="New-and-noteworthy-sm-description1">Minor door repair</h1>
+                                        <p class="paragraph"> ★ 4.82(53K)</p>
+                                        <p> ₹199</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-massage-for-men d-none d-md-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mt-5">
+                            <h1>Massage for men</h1>
+                            <p class="grey">Curated massages by top therapists.</p>
+                            <div class="d-flex flex-row">
+                                <div class="card-middle mt-3">
+                                    <p>Pain Relief</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_228,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700135813754-417df5.jpeg" class="mt-3 w-100" />
+                                </div>
+                                <div class="card-middle mt-3 ml-5">
+                                    <p>Stress Relief</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_228,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700135826199-2ae5f2.jpeg" class="mt-3 w-100" />
+                                </div>
+                                <div class="card-middle mt-3 ml-5">
+                                    <p>Post Workout</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_228,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700135829701-85b36c.jpeg" class="mt-3 w-100" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image-section d-none d-md-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mt-5">
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_1232,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1698216851653-cc8265.jpeg" class="w-100" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container section-salon-for-men d-none d-md-block">
+                        <div class="row">
+                            <div class="col-12 mt-5">
+                                    <h1>Salon for men</h1>
+                                    <p class="grey">Grooming essentials</p>
+                                <div class="d-flex">
+                                    <div class="card-middle mt-3">
+                                        <p>Haircut & Beard <br/> grooming shaving</p>
+                                        <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_228,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700127735237-fc713d.jpeg" class="mt-3 w-100" />
+                                    </div>
+                                    <div class="card-middle ml-3 mt-3">
+                                        <p>Pedicure & Manicure</p>
+                                        <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_228,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700127758209-ba8237.jpeg" class="mt-3 w-100" />
+                                    </div>
+                                    <div class="card-middle ml-3 mt-3">
+                                        <p>Hair colr & Hair spa</p>
+                                        <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_228,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700127754257-2bc2e7.jpeg" class="mt-3 w-100" />
+                                    </div>
+                                    <div class="card-middle ml-3 mt-3">
+                                        <p>Facial clean up</p>
+                                        <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_228,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700127746630-a2db1c.jpeg" class="mt-3 w-100" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+            <div class="container section-salon-for-women">
+                <div class="row">
+                    <div class="col-12 mt-5 d-block d-md-none">
+                        <div class="d-flex flex-row justify-content-between">
+                            <h1>Salon for woman</h1>
+                            <button class="button1"> See all</button>
+                        </div>
+                        <div class="d-flex">
+                            <div class="card-middle mt-3">
+                                <p>Manicure</p>
+                                <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1717398005609-e19abc.jpeg" class="mt-3 w-100" />
+                            </div>
+                            <div class="card-middle ml-3 mt-3">
+                                <p>Waxing</p>
+                                <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1717397992635-09b511.jpeg" class="mt-3 w-100" />
+                            </div>
+                            <div class="card-middle ml-3 mt-3">
+                                <p>Clean up</p>
+                                <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1717397984511-247afe.jpeg" class="mt-3 w-100" />
+                            </div>
+                            <div class="card-middle ml-3 mt-3">
+                                <p>Hair care</p>
+                                <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1717398018197-c68fcc.jpeg" class="mt-3 w-100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-spa-for-woman d-block d-md-none">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mt-5">
+                            <h1> Spa for woman</h1>
+                            <p class="grey">Refresh. Rewind. Rejuvenate.</p>
+                            <div class="d-flex flex-row">
+                                <div class="card-middle mt-3">
+                                    <p>Stress Relief</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_228,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1700143543316-c5eb5c.jpeg" class="mt-3 w-100" />
+                                </div>
+                                <div class="card-middle mt-3 ml-5">
+                                    <p>Pain Relief</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_228,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1700143539186-26f4e5.jpeg" class="mt-3 w-100" />
+                                </div>
+                                <div class="card-middle mt-3 ml-5">
+                                    <p>Natural skin care</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_228,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1700143553928-f5f936.jpeg" class="mt-3 w-100" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image-section d-block d-md-none">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mt-5">
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_393,dpr_3,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1700116102633-720e7b.jpeg" class="w-100" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Cleaning-pest-control d-block d-md-none">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mt-5 ">
+                            <div class="d-flex flex-row justify-content-between">
+                                <h1 class="cleaning-pest-control-heading"> Cleaning & Pest control</h1>
+                                <button class="button1"> See all</button>
+                            </div>
+                            <div class="d-flex">
+                                <div class="card-middle mt-5">
+                                    <p>Full Home cleaning</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700129474836-c5b146.jpeg" class="imagecpc" />
+                                </div>
+                                <div class="card-middle mt-5 ml-3">
+                                    <p>Sofa & carpet cleaning</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1700204929955-75dd47.jpeg" class="imagecpc" />
+                                </div>
+                                <div class="card-middle mt-5 ml-3">
+                                    <p>Cockroach,Ant & <br /> General pest control</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1700141859007-d310cd.jpeg" class="imagecpc" />
+                                </div>
+                                <div class="card-middle mt-5 ml-3">
+                                    <p>Bathroom cleaning</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1700217115195-4b42c0.jpeg" class="imagecpc" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image-section d-block d-md-none">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_393,dpr_3,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1723186361589-829f51.jpeg" class="w-100" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="A.C-appliance-repair d-block d-md-none">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mt-5 ">
+                            <div class="d-flex flex-row justify-content-between">
+                                <h1 class="cleaning-pest-control-heading">A.C & appliance repair </h1>
+                                <button class="button1"> See all</button>
+                            </div>
+                            <div class="d-flex">
+                                <div class="card-middle mt-5">
+                                    <p>A.C Repair & Service</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700141800784-5ca077.jpeg" class="imagecpc" />
+                                </div>
+                                <div class="card-middle mt-5 ml-3">
+                                    <p>Washing machine repair</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700142017541-7905b3.jpeg" class="imagecpc" />
+                                </div>
+                                <div class="card-middle mt-5 ml-3">
+                                    <p>Water Purifier Repair & Service</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700141956384-2e00b1.jpeg" class="imagecpc" />
+                                </div>
+                                <div class="card-middle mt-5 ml-3">
+                                    <p>Geyser Repair & Service</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700198936506-15c0e3.jpeg" class="imagecpc" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Quick-home-repair-repair d-block d-md-none">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mt-5 ">
+                            <div class="d-flex flex-row justify-content-between">
+                                <h1 class="cleaning-pest-control-heading">Quick Home Repairs </h1>
+                                <button class="button"> See all</button>
+                            </div>
+                            <div class="d-flex flex-row mt-4">
+                                <div>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1653983252697-ae30db.png" class="imagecpc" />
+                                    <div class="pt-3">
+                                        <h1 class="New-and-noteworthy-sm-description1">Drill & Hang (wall decor)</h1>
+                                        <p class="paragraph"> ★ 4.87 (124k)</p>
+                                        <p> ₹129</p>
+                                    </div>
+                                </div>
+                                <div class="ml-4">
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1653646139213-3c072a.png" class="imagecpc" />
+                                    <div class="pt-3">
+                                        <h1 class="New-and-noteworthy-sm-description1">Fan repair (ceiling/<br />exhaust/wall)</h1>
+                                        <p class="paragraph"> ★ 4.82(116K</p>
+                                        <p> ₹199</p>
+                                    </div>
+                                </div>
+                                <div class="ml-4">
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1701149688871-2980d1.jpeg" class="imagecpc" />
+                                    <div class="pt-3">
+                                        <h1 class="New-and-noteworthy-sm-description1">Switch/Socket <br /> Replacement</h1>
+                                        <p class="paragraph"> ★ 4.86(44K)</p>
+                                        <p> ₹109</p>
+                                    </div>
+                                </div>
+                                <div class="ml-4">
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_233,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1653918711360-0acbd8.png" class="imagecpc" />
+                                    <div class="pt-3">
+                                        <h1 class="New-and-noteworthy-sm-description1">Minor door repair</h1>
+                                        <p class="paragraph"> ★ 4.82(53K)</p>
+                                        <p> ₹199</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-massage-for-men d-block d-md-none">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mt-5">
+                            <h1>Massage for men</h1>
+                            <p class="grey">Curated massages by top therapists.</p>
+                            <div class="d-flex flex-row">
+                                <div class="card-middle mt-3">
+                                    <p>Pain Relief</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_228,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700135813754-417df5.jpeg" class="mt-3 w-100" />
+                                </div>
+                                <div class="card-middle mt-3 ml-5">
+                                    <p>Stress Relief</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_228,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700135826199-2ae5f2.jpeg" class="mt-3 w-100" />
+                                </div>
+                                <div class="card-middle mt-3 ml-5">
+                                    <p>Post Workout</p>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_228,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700135829701-85b36c.jpeg" class="mt-3 w-100" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image-section d-block d-md-none">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mt-5">
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_393,dpr_3,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1716888207737-4987a8.jpeg" class="w-100" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container section-salon-for-men d-block d-md-none">
+                <div class="row">
+                    <div class="col-12 mt-5 d-none d-md-block">
+                        <h1>Salon for men</h1>
+                        <p class="grey">Grooming essentials</p>
+                        <div class="d-flex">
+                            <div class="card-middle mt-3">
+                                <p>Haircut & Beard <br /> grooming shaving</p>
+                                <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_228,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700127735237-fc713d.jpeg" class="mt-3 w-100" />
+                            </div>
+                            <div class="card-middle ml-3 mt-3">
+                                <p>Pedicure & Manicure</p>
+                                <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_228,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700127758209-ba8237.jpeg" class="mt-3 w-100" />
+                            </div>
+                            <div class="card-middle ml-3 mt-3">
+                                <p>Hair colr & Hair spa</p>
+                                <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_228,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700127754257-2bc2e7.jpeg" class="mt-3 w-100" />
+                            </div>
+                            <div class="card-middle ml-3 mt-3">
+                                <p>Facial clean up</p>
+                                <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_228,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1700127746630-a2db1c.jpeg" class="mt-3 w-100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image-section d-block d-md-none">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mt-5">
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_393,dpr_3,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1687857905547-b228a3.jpeg" class="w-100" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="background-contact">
+                <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_category/w_144,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1648471968852-1f2b01.png" class="image-uc-contact mt-5 ml-3" />
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-3">
+                            <h1 class="contact-heading mt-3">Company</h1>
+                            <p><a href="https://www.urbancompany.com/about" target="_blank" class="contact-paragraph mt-3">About us</a></p>
+                            <p><a href="https://www.urbancompany.com/terms" target="_blank" class="contact-paragraph mt-3"> Terms & conditions </a></p>
+                            <p><a href="https://www.urbancompany.com/privacy-policy" target="_blank" class="contact-paragraph mt-3"> Privacy policy </a></p>
+                            <p><a href="https://www.urbancompany.com/anti-discrimination-policy" target="_blank" class="contact-paragraph mt-3"> Anti-discrimination policy </a></p>
+                            <p><a href="https://www.urbancompany.com/impact" target="_blank" class="contact-paragraph mt-3"> UC impact </a></p>
+                            <p><a href="https://careers.urbancompany.com/" target="_blank" class="contact-paragraph mt-3"> Careers </a></p>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <h1 class="contact-heading mt-3">For customers</h1>
+                            <p><a href="https://www.urbancompany.com/reviews" target="_blank" class="contact-paragraph mt-3"> UC reviews </a></p>
+                            <p> <a href="https://www.urbancompany.com/near-me" target="_blank" class="contact-paragraph mt-3">Categories near you </a></p>
+                            <p> <a href="https://www.urbancompany.com/blog" target="_blank" class="contact-paragraph mt-3">Blog </a> </p>
+                            <p> <a href="https://www.urbancompany.com/blog" target="_blank" class="contact-paragraph mt-3">Blog </a> </p>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <h1 class="contact-heading mt-3">For partners</h1>
+                            <p><a href="https://www.urbancompany.com/contact-us" target="_blank" class="contact-paragraph mt-3">Register as a professional </a></p>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <h1 class="contact-heading mt-3">Social links</h1>
+                            <div class="d-flex">
+                                <div>
+                                    <i class="fa-brands fa-x-twitter contact-us-logo-bg shadow contact-us-logo-size mb-5 mr-1 mt-3"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-brands fa-facebook ml-1 contact-us-logo-bg shadow contact-us-logo-size mb-5 mr-1 mt-3"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-brands fa-instagram ml-1 contact-us-logo-bg shadow contact-us-logo-size mb-5 mr-1 mt-3"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-brands fa-linkedin-in contact-us-logo-bg shadow contact-us-logo-size mb-5 ml-1 mr-1 mt-3"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_category/w_108,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/supply/customer-app-supply/1648463870745-38fece.png" class="w-100" />
+                            </div>
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_category/w_108,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1696419732772-28cd3d.jpeg" class="w-100 mt-3" />
+                        </div>
+                        <div class="col-12">
+                            <hr class="hr-line" />
+                            <p class="contact-paragraph mt-5 ">© Copyright 2024 Urban Company. All rights reserved. | CIN: U74140DL2014PTC274413</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</body>
+</html>
